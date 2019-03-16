@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/spartanwushu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/desc_text_view"/>
+
+    <TextView
+        android:id="@+id/sw_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:text="Spartan Wushu Club"
+        android:textColor="#FFEA00"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/desc_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/address_text_view"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#FFEA00"
+        android:text="At Spartan Wushu Club, we strive to improve our bodies and our minds through wushu, an ancient Chinese martial arts." />
+
+    <TextView
+        android:id="@+id/address_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/hours_text_view"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#FFEA00"
+        android:text="We are located at the Spartan Complex Aerobics Room on: 1 Washington Dr., San Jose, CA 95111" />
+
+    <TextView
+        android:id="@+id/hours_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/contact_info_text_view"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#FFEA00"
+        android:text="Club practice times: Tuesdays and Thursdays from 6:00PM-8:00PM" />
+
+    <TextView
+        android:id="@+id/contact_info_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:textColor="#FFEA00"
+        android:text="For inquiries, contact us at:spartanwushu@gmail.com " />
+
+</RelativeLayout>
